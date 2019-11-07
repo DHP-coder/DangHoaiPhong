@@ -1,0 +1,38 @@
+// module 'Mod Team'
+.mod-team {
+  .title-team {
+    padding-top: 58px;
+  }
+
+  .avatar-team {
+    padding-top: 40px;
+  }
+
+  .text-team {
+    padding-top: 40px;
+    img{
+      position: relative;
+    }
+    .icon {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      stroke-width: 0;
+      stroke: currentColor;
+      fill: currentColor;
+      color: white;
+      position: absolute;
+      top: 10px;
+      left: 25px;
+    }
+  }
+
+  .text-team--box {
+    padding-left: 50px;
+    padding-top: 60px;
+    padding-right: 70px;
+    padding-bottom: 60px;
+    margin-bottom: 10px;
+  }
+
+}

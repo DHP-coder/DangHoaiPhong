@@ -1,0 +1,50 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 100px;
+  background-color: $black;
+  color: $white;
+  @extend %parent-link-inhert;
+
+  a {
+    padding-right: 35px;
+  }
+
+  .text-left a{
+    border-right: solid;
+    border-width: 1px;
+  }
+  .text-center a{
+    border-right: solid;
+    border-width: 1px;
+  }
+
+}
+
+.footer-item-col {
+  //css
+}
+
+.footer-menu {
+  margin-bottom: 50px;
+
+  li {
+    line-height: (20/14);
+  }
+}
+
+.footer-copyright {
+  margin-bottom: 0;
+  @extend %parent-link-inhert;
+}
+
+.menu2-footer ul li {
+  display: inline;
+}
+
+.connect ul {
+  padding-left: 0;
+
+  li {
+    display: inline;
+  }
+}
